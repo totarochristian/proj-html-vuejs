@@ -1,12 +1,23 @@
 <template>
-  <div>
-    <h1>Hello world!</h1>
+  <div class="w-100 h-100">
+    <HeaderComponent />
+    <MainComponent />
+    <FooterComponent />
   </div>
 </template>
 
 <script>
+  import HeaderComponent from './components/Header/HeaderComponent.vue';
+  import MainComponent from './components/Main/MainComponent.vue';
+  import FooterComponent from './components/Footer/FooterComponent.vue';
+
   export default {
-    name: 'App'
+    name: 'App',
+    components: {
+      HeaderComponent,
+      MainComponent,
+      FooterComponent
+    }
   }
 </script>
 
