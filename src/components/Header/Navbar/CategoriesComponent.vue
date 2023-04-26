@@ -14,14 +14,16 @@
 </script>
 
 <style lang="scss" scoped>
-#categories{
-  a{
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    &:hover{
-      color: #ffffff80;
+  @use '../../../assets/styles/partial/variables' as *;
+  
+  #categories{
+    a{
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+      &:hover{
+        color: $whiteColorHover;
+      }
     }
   }
-}
 </style>

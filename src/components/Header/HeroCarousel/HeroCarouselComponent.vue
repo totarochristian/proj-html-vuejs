@@ -70,10 +70,10 @@
       bottom: 2rem;
       i{
         cursor: pointer;
-        color: #ffffff4d;
+        color: $whiteColorCarouselNotActiveButton;
       }
-      .active{
-        color: #ffffffcc;
+      .active, i:hover{
+        color: $whiteColorHover;
       }
     }
   }

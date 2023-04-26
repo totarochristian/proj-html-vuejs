@@ -15,6 +15,8 @@
 </script>
 
 <style lang="scss" scoped>
+  @use '../../../assets/styles/partial/variables' as *;
+  
   #actions{
     #searchIcon{
       transform: rotateY(180deg);
@@ -30,7 +32,7 @@
     i{
       cursor: pointer;
       &:hover{
-        color: #ffffff80;
+        color: $whiteColorHover;
       }
     }
   }
