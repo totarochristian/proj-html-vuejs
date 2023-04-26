@@ -1,12 +1,17 @@
 <template>
   <main>
-    Main
+    <SubjectsComponent />
   </main>
 </template>
 
 <script>
+  import SubjectsComponent from './Subjects/SubjectsComponent.vue';
+
   export default {
-    name: 'Main'
+    name: 'Main',
+    components:{
+      SubjectsComponent
+    }
   }
 </script>
 

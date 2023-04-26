@@ -53,6 +53,36 @@ export const store = reactive({
           }
         ]
       }
+    },
+    main:{
+      subjects:{
+        data: [
+          {
+            image: 'h5-custom-icon-1.png',
+            name: 'Languages'
+          },
+          {
+            image: 'h5-custom-icon-2.png',
+            name: 'Software'
+          },
+          {
+            image: 'h5-custom-icon-3.png',
+            name: 'Business'
+          },
+          {
+            image: 'h5-custom-icon-4.png',
+            name: 'Chemistry'
+          },
+          {
+            image: 'h5-custom-icon-5.png',
+            name: 'Science'
+          },
+          {
+            image: 'h5-custom-icon-6.png',
+            name: 'DIY&Crafts'
+          }
+        ]
+      }
     }
   }
 });
