@@ -1,7 +1,7 @@
 <template>
   <div id="inHomeTutoring" class="m-4 p-4 d-flex flex-column justify-content-center align-items-start">
     <h2>The Trusted Name<br> for In-Home Tutoring.</h2>
-    <p class="fs-5">Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id eis sed odio sit amet nibh vulputate cursus mauris.</p>
+    <p class="fs-2">Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id eis sed odio sit amet nibh vulputate cursus mauris.</p>
     <a href="#" class="text-uppercase fw-bold">Learn more</a>
     <img src="/img/h5-img-1.jpg" alt="In-home tutoring image">
   </div>
