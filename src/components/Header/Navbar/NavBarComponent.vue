@@ -28,8 +28,9 @@
 </script>
 
 <style lang="scss" scoped>
+  @use '../../../assets/styles/partial/variables' as *;
   #navbar{
-    height: 100px;
+    height: $navbarHeight;
     background-color: black;
     position: absolute;
     top: 0;
