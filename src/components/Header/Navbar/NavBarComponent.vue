@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar" class="w-100 p-4 text-white d-flex justify-content-center align-items-center">
+  <div id="navbar" class="w-100 p-4 text-white d-flex justify-content-between align-items-center flex-wrap">
     <LogoComponent />
     <CategoriesComponent :categoriesArray="store.siteCreationData.header.navbar.categories"/>
     <ActionsComponent />
@@ -30,10 +30,15 @@
 <style lang="scss" scoped>
   @use '../../../assets/styles/partial/variables' as *;
   #navbar{
-    height: $navbarHeight;
+    min-height: $navbarHeight;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
+  }
+  @media screen and (max-width: 1604px) {
+    #navbar{
+      flex-direction: column;
+    }
   }
 </style>

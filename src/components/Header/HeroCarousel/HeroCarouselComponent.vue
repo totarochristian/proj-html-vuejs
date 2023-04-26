@@ -81,4 +81,15 @@
       }
     }
   }
+  @media screen and (max-width: 767px){
+    #heroCarousel{
+      height: 100vh;
+      h1{
+        font-size: 3rem!important;
+      }
+      p{
+        padding: 0 2rem;
+      }
+    }
+  }
 </style>

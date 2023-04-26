@@ -1,5 +1,5 @@
 <template>
-  <div id="actions" class="px-4 w-100 h-100 d-flex gap-4 justify-content-center align-items-center">
+  <div id="actions" class="px-4 h-100 d-flex gap-4 justify-content-center align-items-center">
     <i id="searchIcon" class="fa-solid fa-magnifying-glass px-2 fs-4"></i>
     <i class="fa-solid fa-bag-shopping position-relative px-2 fs-4">
       <span class="shopElements bg-primary">0</span>
@@ -34,6 +34,11 @@
       &:hover{
         color: $whiteColorHover;
       }
+    }
+  }
+  @media screen and (max-width: 1604px) {
+    #actions{
+      visibility: hidden;
     }
   }
 </style>
