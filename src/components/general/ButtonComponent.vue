@@ -18,6 +18,7 @@
   button{
     outline: 0;
     border: 0;
+    transition: all 0.3s linear;
   }
   .color1{
     background-color: $buttonColor1;
