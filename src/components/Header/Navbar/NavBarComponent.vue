@@ -1,7 +1,7 @@
 <template>
   <div id="navBar" class="w-100 d-flex">
     <LogoComponent />
-    <CategoriesComponent :CategoriesArray="store.siteCreationData.header.navbar.categories"/>
+    <CategoriesComponent :categoriesArray="store.siteCreationData.header.navbar.categories"/>
   </div>
 </template>
 

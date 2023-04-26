@@ -1,6 +1,6 @@
 <template>
   <div id="categories">
-    Categories
+    <a v-for="category in categoriesArray" :href="category.link">{{ category.name }}</a>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
   export default {
     name: 'Categories',
     props:{
-      CategoriesArray: Array
+      categoriesArray: Array
     }
   }
 </script>
