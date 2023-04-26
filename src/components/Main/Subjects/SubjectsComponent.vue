@@ -24,5 +24,8 @@
 <style lang="scss" scoped>
   #subjects{
     margin: 6rem 3rem;
+    div{
+      width: calc(100% / 6 - 1.5rem);
+    }
   }
 </style>
