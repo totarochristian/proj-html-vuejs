@@ -21,7 +21,7 @@
       return {
         store,
         activeIndex: 0,
-        intervalId: 0
+        interval: null
       }
     },
     methods:{
@@ -29,8 +29,8 @@
         this.activeIndex = this.activeIndex + 1 < store.siteCreationData.header.hero.data.length ? this.activeIndex + 1 : 0;
       },
       OpenSlide(indexToOpen){
-        if(this.intervalId)
-          clearInterval(this.intervalId);
+        if(this.interval)
+          clearInterval(this.interval);
         this.activeIndex = indexToOpen;
         this.interval = setInterval(this.NextSlide,5000);
       }
@@ -54,7 +54,7 @@
       height: 100%;
       object-fit: cover;
       z-index: 100;
-      filter: brightness(80%);
+      filter: brightness(70%);
     }
     div{
       z-index: 200;
