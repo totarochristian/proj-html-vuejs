@@ -6,7 +6,10 @@
 
 <script>
   export default {
-    name: 'Categories'
+    name: 'Categories',
+    props:{
+      CategoriesArray: Array
+    }
   }
 </script>
 
