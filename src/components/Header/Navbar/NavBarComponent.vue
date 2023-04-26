@@ -31,9 +31,9 @@
   @use '../../../assets/styles/partial/variables' as *;
   #navbar{
     height: $navbarHeight;
-    background-color: black;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1000;
   }
 </style>

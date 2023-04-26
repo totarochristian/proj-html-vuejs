@@ -44,8 +44,7 @@
 <style lang="scss" scoped>
   @use '../../../assets/styles/partial/variables' as *;
   #heroCarousel{
-    margin-top: $navbarHeight;
-    height: 78vh;
+    height: 90vh;
     img{
       position: absolute;
       top: 0;
