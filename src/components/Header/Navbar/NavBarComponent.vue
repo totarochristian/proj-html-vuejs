@@ -5,8 +5,15 @@
 </template>
 
 <script>
+  import { store } from '../../../data/store';
+
   export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    data(){
+      return{
+        store
+      }
+    }
   }
 </script>
 
