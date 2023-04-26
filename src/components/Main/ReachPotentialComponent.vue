@@ -34,7 +34,7 @@
       max-width: 650px;
     }
     #reachPotentialContent{
-      max-width: 600px;
+      max-width: 570px;
       margin: 2rem;
       h2{
         font-size: 3.5rem;
