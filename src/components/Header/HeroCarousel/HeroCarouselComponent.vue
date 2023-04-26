@@ -32,7 +32,7 @@
         if(this.interval)
           clearInterval(this.interval);
         this.activeIndex = indexToOpen;
-        this.interval = setInterval(this.NextSlide,5000);
+        this.interval = setInterval(this.NextSlide,6000);
       }
     },
     mounted(){
