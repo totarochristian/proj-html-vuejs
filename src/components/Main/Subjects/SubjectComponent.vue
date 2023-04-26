@@ -20,9 +20,14 @@
     width: 160px;
     height: 200px;
     background-color: $subjectsBackground;
+    cursor: pointer;
     img{
       width: 100%;
       height: auto;
+      transition: all 0.3s linear;
+    }
+    &:hover img{
+      transform: translateY(-10px);
     }
   }
 </style>
