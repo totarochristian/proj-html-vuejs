@@ -39,6 +39,7 @@
   @media screen and (max-width: 1604px) {
     #navbar{
       flex-direction: column;
+      padding-top: 4rem!important;
     }
   }
 </style>
