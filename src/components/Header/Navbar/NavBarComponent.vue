@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar" class="w-100 d-flex">
+  <div id="navbar" class="w-100 p-4 text-white d-flex justify-content-center align-items-center">
     <LogoComponent />
     <CategoriesComponent :categoriesArray="store.siteCreationData.header.navbar.categories"/>
     <ActionsComponent />
@@ -29,6 +29,10 @@
 
 <style lang="scss" scoped>
   #navbar{
+    height: 100px;
     background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 </style>

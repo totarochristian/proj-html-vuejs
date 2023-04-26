@@ -1,5 +1,5 @@
 <template>
-  <div id="logo">
+  <div id="logo" class="px-4 w-100 h-100">
     <img src="/img/logo-light.png" alt="Logo">
   </div>
 </template>
@@ -11,5 +11,10 @@
 </script>
 
 <style lang="scss" scoped>
-
+  #logo{
+    img{
+      height: 100%;
+      width: auto;
+    }
+  }
 </style>
