@@ -1,17 +1,20 @@
 <template>
   <div id="navBar" class="w-100 d-flex">
     <LogoComponent />
+    <CategoriesComponent />
   </div>
 </template>
 
 <script>
-import LogoComponent from './LogoComponent.vue'
+  import LogoComponent from './LogoComponent.vue';
+  import CategoriesComponent from './CategoriesComponent.vue';
   import { store } from '../../../data/store';
 
   export default {
     name: 'NavBar',
     components:{
-      LogoComponent
+      LogoComponent,
+      CategoriesComponent
     },
     data(){
       return{
@@ -22,5 +25,7 @@ import LogoComponent from './LogoComponent.vue'
 </script>
 
 <style lang="scss" scoped>
-
+  #navBar{
+    background-color: black;
+  }
 </style>
