@@ -4,7 +4,7 @@
     <div class="px-4 w-100 h-100 position-relative d-flex flex-column justify-content-center align-items-center text-center gap-4">
       <h1>{{ store.siteCreationData.header.hero.data[activeIndex].title }}</h1>
       <p class="fs-3">{{ store.siteCreationData.header.hero.data[activeIndex].description }}</p>
-      <button class="btn btn-primary btn-lg">{{ store.siteCreationData.header.hero.data[activeIndex].action }}</button>
+      <ButtonComponent :textContent="store.siteCreationData.header.hero.data[activeIndex].action" :colorType="1" :sizeType="1" />
     </div>
     <div id="carouselButtons" class="w-100 d-flex justify-content-center align-items-center gap-3">
       <i v-for="(elem, index) in store.siteCreationData.header.hero.data" class="fs-5 fa-solid" :class="index == activeIndex ? 'fa-circle-dot active' : 'fa-circle'" @click="OpenSlide(index)"></i>
@@ -13,10 +13,14 @@
 </template>
 
 <script>
+  import ButtonComponent from '../../general/ButtonComponent.vue';
   import { store } from '../../../data/store';
 
   export default {
     name: 'HeroCarousel',
+    components: {
+      ButtonComponent
+    },
     data(){
       return {
         store,
