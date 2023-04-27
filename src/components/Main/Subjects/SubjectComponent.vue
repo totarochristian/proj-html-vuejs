@@ -1,6 +1,6 @@
 <template>
   <div class="subject p-4 d-flex flex-wrap justify-content-center align-items-center">
-    <img class="p-3" :src="'/img/'+data.image" :alt="data.name">
+    <img :src="'/img/'+data.image" :alt="data.name">
     <p class="fs-3 fw-bold">{{ data.name }}</p>
   </div>
 </template>
@@ -25,6 +25,7 @@
       width: 100%;
       height: auto;
       transition: all 0.3s linear;
+      padding: 3rem!important;
     }
     &:hover img{
       transform: translateY(-10px);
