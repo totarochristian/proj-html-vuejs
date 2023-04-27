@@ -184,6 +184,100 @@ export const store = reactive({
             image: 'h12-tabs-icon-6.png'
           }
         ]
+      },
+      popularCourses:{
+        data:[
+          {
+            image: 'course-1-f-img.jpg',
+            title: 'Business english',
+            author: 'Preston Marshall',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 20,
+            follower: 0,
+            tag: 'languages',
+            liked: false
+          },
+          {
+            image: 'course-2-f-img.jpg',
+            title: 'Social computing',
+            author: 'David Sanders',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 0,
+            follower: 0,
+            tag: 'programming',
+            liked: false
+          },
+          {
+            image: 'course-3-f-img.jpg',
+            title: 'Learn spanish',
+            author: 'Jennie King',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 20,
+            follower: 0,
+            tag: 'languages',
+            liked: false
+          },
+          {
+            image: 'course-4-f-img.jpg',
+            title: 'Basic marketing',
+            author: 'Edward Bowman',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 40,
+            follower: 0,
+            tag: 'business',
+            liked: false
+          },
+          {
+            image: 'course-5-f-img.jpg',
+            title: 'Android developer',
+            author: 'David Sanders',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 0,
+            follower: 0,
+            tag: 'programming',
+            liked: false
+          },
+          {
+            image: 'course-6-f-img.jpg',
+            title: 'Web designing',
+            author: 'Jennifer Powell',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 0,
+            follower: 0,
+            tag: 'programming',
+            liked: false
+          },
+          {
+            image: 'course-12-f-img.jpg',
+            title: 'Financial modeling',
+            author: 'Edward Bowman',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 20,
+            follower: 0,
+            tag: 'business',
+            liked: false
+          },
+          {
+            image: 'course-11-f-img.jpg',
+            title: 'Academic english',
+            author: 'Dave Robbins',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 0,
+            follower: 0,
+            tag: 'languages',
+            liked: false
+          },
+          {
+            image: 'course-7-f-img.jpg',
+            title: 'Modern psychology',
+            author: 'Kathryn Webb',
+            description: 'Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris',
+            price: 40,
+            follower: 0,
+            tag: 'business',
+            liked: false
+          }
+        ]
       }
     }
   }
