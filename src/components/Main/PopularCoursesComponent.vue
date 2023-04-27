@@ -13,6 +13,6 @@
 
 <style lang="scss" scoped>
   #popularOnlineCourses{
-
+    margin: 4rem 0 10rem 0!important;
   }
 </style>
