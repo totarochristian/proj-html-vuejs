@@ -2,12 +2,18 @@
   <div id="pricingPlans" class="m-4 p-4 d-flex justify-content-center align-items-center flex-column gap-4">
     <h2 class="fs-1 text-capitalize">pricing plans</h2>
     <p class="fs-3 text-center">Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci</p>
+    <PricingTableComponent />
   </div>
 </template>
 
 <script>
+  import PricingTableComponent from './PricingTableComponent.vue';
+
   export default {
-    name: 'PricingPlans'
+    name: 'PricingPlans',
+    components:{
+      PricingTableComponent
+    }
   }
 </script>
 
