@@ -7,6 +7,7 @@
     <LearningPossibilities />
     <PopularCoursesComponent />
     <PricingPlansComponent />
+    <BrandsComponent />
   </main>
 </template>
 
@@ -18,6 +19,7 @@
   import LearningPossibilities from './LearningPossibilitiesComponent.vue';
   import PopularCoursesComponent from './PopularCourses/PopularCoursesComponent.vue';
   import PricingPlansComponent from './PricingPlans/PricingPlansComponent.vue';
+  import BrandsComponent from './BrandsComponent.vue';
 
   export default {
     name: 'Main',
@@ -28,7 +30,8 @@
       FeedbackComponent,
       LearningPossibilities,
       PopularCoursesComponent,
-      PricingPlansComponent
+      PricingPlansComponent,
+      BrandsComponent
     }
   }
 </script>
