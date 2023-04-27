@@ -27,7 +27,8 @@
 <style lang="scss" scoped>
   @use '../../assets/styles/partial/variables' as *;
   #reachPotential{
-    margin: 6rem 3rem;
+    padding-top: 8rem!important;
+    margin: 4rem 3rem 10rem 3rem!important;
     img{
       width: 50%;
       height: auto;
