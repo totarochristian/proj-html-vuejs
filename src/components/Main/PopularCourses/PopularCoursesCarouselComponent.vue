@@ -104,14 +104,18 @@
       display: block;
     }
   }
-  #carouselButtons{
-    i{
-      cursor: pointer;
-      color: $buttonColor1;
-      opacity: 60%;
-    }
-    .active, i:hover{
-      opacity: 100%;
+  #popularCoursesCarousel{
+    margin-top: 5rem;
+    #carouselButtons{
+      margin-top: 3rem;
+      i{
+        cursor: pointer;
+        color: $buttonColor1;
+        opacity: 60%;
+      }
+      .active, i:hover{
+        opacity: 100%;
+      }
     }
   }
 </style>
