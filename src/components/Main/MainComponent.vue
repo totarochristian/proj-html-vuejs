@@ -5,6 +5,7 @@
     <ReachPotentialComponent />
     <FeedbackComponent />
     <LearningPossibilities />
+    <PopularCoursesComponent />
   </main>
 </template>
 
@@ -14,6 +15,7 @@
   import ReachPotentialComponent from './ReachPotentialComponent.vue';
   import FeedbackComponent from './FeedbackComponent.vue';
   import LearningPossibilities from './LearningPossibilitiesComponent.vue';
+  import PopularCoursesComponent from './PopularCoursesComponent.vue';
 
   export default {
     name: 'Main',
@@ -22,7 +24,8 @@
       InHomeTutoringComponent,
       ReachPotentialComponent,
       FeedbackComponent,
-      LearningPossibilities
+      LearningPossibilities,
+      PopularCoursesComponent
     }
   }
 </script>
