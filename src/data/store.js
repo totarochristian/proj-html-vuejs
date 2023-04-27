@@ -195,7 +195,8 @@ export const store = reactive({
             price: 20,
             follower: 0,
             tag: 'languages',
-            liked: false
+            liked: false,
+            hide: false
           },
           {
             image: 'course-2-f-img.jpg',
@@ -205,7 +206,8 @@ export const store = reactive({
             price: 0,
             follower: 0,
             tag: 'programming',
-            liked: false
+            liked: false,
+            hide: false
           },
           {
             image: 'course-3-f-img.jpg',
@@ -215,7 +217,8 @@ export const store = reactive({
             price: 20,
             follower: 0,
             tag: 'languages',
-            liked: false
+            liked: false,
+            hide: false
           },
           {
             image: 'course-4-f-img.jpg',
@@ -225,7 +228,8 @@ export const store = reactive({
             price: 40,
             follower: 0,
             tag: 'business',
-            liked: false
+            liked: false,
+            hide: true
           },
           {
             image: 'course-5-f-img.jpg',
@@ -235,7 +239,8 @@ export const store = reactive({
             price: 0,
             follower: 0,
             tag: 'programming',
-            liked: false
+            liked: false,
+            hide: true
           },
           {
             image: 'course-6-f-img.jpg',
@@ -245,7 +250,8 @@ export const store = reactive({
             price: 0,
             follower: 0,
             tag: 'programming',
-            liked: false
+            liked: false,
+            hide: true
           },
           {
             image: 'course-12-f-img.jpg',
@@ -255,7 +261,8 @@ export const store = reactive({
             price: 20,
             follower: 0,
             tag: 'business',
-            liked: false
+            liked: false,
+            hide: true
           },
           {
             image: 'course-11-f-img.jpg',
@@ -265,7 +272,8 @@ export const store = reactive({
             price: 0,
             follower: 0,
             tag: 'languages',
-            liked: false
+            liked: false,
+            hide: true
           },
           {
             image: 'course-7-f-img.jpg',
@@ -275,7 +283,8 @@ export const store = reactive({
             price: 40,
             follower: 0,
             tag: 'business',
-            liked: false
+            liked: false,
+            hide: true
           }
         ]
       }
