@@ -6,3 +6,7 @@ $fa-font-path: '../webfonts';
 @import '@fortawesome/fontawesome-free/scss/regular.scss';
 
 @import 'bootstrap/scss/bootstrap';
+
+h2{
+  font-size: $h2Sizes;
+}

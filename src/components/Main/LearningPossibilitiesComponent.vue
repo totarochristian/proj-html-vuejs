@@ -4,7 +4,7 @@
       <span class="w-100 fw-semibold text-capitalize fs-3 p-4" :class="{'active': index == activeIndex}" @click="OpenSection(index)" v-for="(elem, index) in store.siteCreationData.main.learningPossibilities.data">{{ elem.sectiontitle }}</span>
     </div>
     <div id="learningContent" class="my-4 p-4 d-flex flex-column align-items-start flex-fill gap-4">
-      <h1>{{ store.siteCreationData.main.learningPossibilities.data[activeIndex].title }}</h1>
+      <h2>{{ store.siteCreationData.main.learningPossibilities.data[activeIndex].title }}</h2>
       <p class="fs-3">{{ store.siteCreationData.main.learningPossibilities.data[activeIndex].description }}</p>
       <div id="learningOptionsContent" class="w-100 d-flex align-items-end">
         <div id="learningOptions" class="flex-fill d-flex flex-column align-items-start">

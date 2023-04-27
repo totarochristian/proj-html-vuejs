@@ -37,9 +37,6 @@
     #reachPotentialContent{
       max-width: 570px;
       margin: 2rem;
-      h2{
-        font-size: 3.5rem;
-      }
       .results{
         color: $buttonColor1;
         span:first-child{

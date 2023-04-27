@@ -18,9 +18,6 @@
   #inHomeTutoring{
     padding-top: 8rem!important;
     margin: 4rem 3rem 10rem 3rem!important;
-    h2{
-      font-size: 3rem;
-    }
     img{
       width: 100%;
       height: auto;
