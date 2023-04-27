@@ -1,5 +1,5 @@
 <template>
-  <div id="pricingTable" class="col-9 d-flex flex-column align-items-center justify-content-center">
+  <div id="pricingTable" class="col-11 d-flex flex-column align-items-center justify-content-center">
     <table class="table">
       <thead>
         <tr>
