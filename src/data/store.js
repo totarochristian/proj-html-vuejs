@@ -82,6 +82,31 @@ export const store = reactive({
             name: 'DIY&Crafts'
           }
         ]
+      },
+      feedback:{
+        data:[
+          {
+            image: 'testimonials-standard-6.png',
+            feedback: 'Mroin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nivulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus',
+            name: 'Molly',
+            surname: 'Simon',
+            role: 'Teacher'
+          },
+          {
+            image: 'testimonials-standard-2.png',
+            feedback: 'Mroin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nivulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus',
+            name: 'Joan',
+            surname: 'Collins',
+            role: 'Student'
+          },
+          {
+            image: 'testimonials-standard-1.png',
+            feedback: 'Mroin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nivulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus',
+            name: 'Virginia',
+            surname: 'Foster',
+            role: 'Student'
+          }
+        ]
       }
     }
   }
