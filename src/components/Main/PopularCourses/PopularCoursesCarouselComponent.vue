@@ -75,6 +75,7 @@
 <style lang="scss" scoped>
   @use '../../../assets/styles/partial/variables' as *;
   .coursesCard{
+    background-color: white;
     max-width: 413px;
     border: 1px solid lightgrey;
     position: relative;
