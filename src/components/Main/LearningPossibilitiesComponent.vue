@@ -42,7 +42,8 @@
   @use '../../assets/styles/partial/variables' as *;
 
   #learningPossibilities{
-    margin: 6rem 0;
+    padding-top: 8rem!important;
+    margin: 4rem 0 10rem 0!important;
     #learningSections{
       min-width: 500px;
       span{
