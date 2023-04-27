@@ -58,6 +58,7 @@
 </script>
 
 <style lang="scss" scoped>
+  @use '../../../assets/styles/partial/variables' as *;
   #pricingTable{
     td,th{
       border: 1px solid rgba(211, 211, 211, 0.501);
@@ -70,6 +71,16 @@
     }
     .text-grey{
       color: grey;
+    }
+    thead{
+      tr{
+        th{
+          border-top: 6px solid #d6f2ff;
+        }
+        th:nth-child(3){
+          border-top-color: $buttonColor1;
+        }
+      }
     }
   }
 </style>
