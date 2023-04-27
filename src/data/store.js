@@ -287,6 +287,72 @@ export const store = reactive({
             hide: true
           }
         ]
+      },
+      pricingTable:{
+        headers:[
+          {
+            image: '',
+            title: 'Save up to 40% by paying weekly',
+            price: 0
+          },
+          {
+            image: '',
+            title: 'Standard',
+            price: 12
+          },
+          {
+            image: '',
+            title: 'Professional',
+            price: 59
+          },
+          {
+            image: '',
+            title: 'Advanced',
+            price: 88
+          }
+        ],
+        rows:[
+          {
+            title: 'Number of Courses',
+            type: 'number',
+            values: [2, 4, 6]
+          },
+          {
+            title: 'Time',
+            type: 'time',
+            values: [15, 30, 30]
+          },
+          {
+            title: 'Web Designing',
+            type: 'boolean',
+            values: [true, true, true]
+          },
+          {
+            title: 'Human-Centered Design',
+            type: 'boolean',
+            values: [true, true, true]
+          },
+          {
+            title: 'Basic Marketing',
+            type: 'boolean',
+            values: [false, true, true]
+          },
+          {
+            title: 'Python for Everybody',
+            type: 'boolean',
+            values: [false, true, true]
+          },
+          {
+            title: 'Android Developer',
+            type: 'boolean',
+            values: [false, false, true]
+          },
+          {
+            title: 'Business English',
+            type: 'boolean',
+            values: [false, false, true]
+          }
+        ]
       }
     }
   }
