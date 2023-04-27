@@ -60,25 +60,29 @@
 <style lang="scss" scoped>
   @use '../../../assets/styles/partial/variables' as *;
   #pricingTable{
-    td,th{
-      border: 1px solid rgba(211, 211, 211, 0.501);
-    }
-    tfoot tr td:first-child{
-      visibility: hidden;
-    }
-    .bg-azure{
-      background-color: #f7fdff;
-    }
-    .text-grey{
-      color: grey;
-    }
-    thead{
-      tr{
-        th{
-          border-top: 6px solid #d6f2ff;
-        }
-        th:nth-child(3){
-          border-top-color: $buttonColor1;
+    margin-top: 5rem;
+    table{
+      background-color: white;
+      td,th{
+        border: 1px solid rgba(211, 211, 211, 0.501);
+      }
+      tfoot tr td:first-child{
+        visibility: hidden;
+      }
+      .bg-azure{
+        background-color: #f7fdff;
+      }
+      .text-grey{
+        color: grey;
+      }
+      thead{
+        tr{
+          th{
+            border-top: 6px solid #d6f2ff;
+          }
+          th:nth-child(3){
+            border-top-color: $buttonColor1;
+          }
         }
       }
     }
