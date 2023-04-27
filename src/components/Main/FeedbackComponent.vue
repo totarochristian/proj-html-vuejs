@@ -55,6 +55,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: top center;
       z-index: 100;
       filter: brightness(90%);
     }
