@@ -6,6 +6,7 @@
     <FeedbackComponent />
     <LearningPossibilities />
     <PopularCoursesComponent />
+    <PricingPlansComponent />
   </main>
 </template>
 
@@ -16,6 +17,7 @@
   import FeedbackComponent from './FeedbackComponent.vue';
   import LearningPossibilities from './LearningPossibilitiesComponent.vue';
   import PopularCoursesComponent from './PopularCourses/PopularCoursesComponent.vue';
+  import PricingPlansComponent from './PricingPlansComponent.vue';
 
   export default {
     name: 'Main',
@@ -25,7 +27,8 @@
       ReachPotentialComponent,
       FeedbackComponent,
       LearningPossibilities,
-      PopularCoursesComponent
+      PopularCoursesComponent,
+      PricingPlansComponent
     }
   }
 </script>
