@@ -1,5 +1,5 @@
 <template>
-  <button ref="buttonComponent" class="text-uppercase" :class="'color'+colorType+' size'+sizeType">{{ textContent }}</button>
+  <button ref="buttonComponent" class="text-uppercase" :class="'color'+colorType+' size'+sizeType+' border'+borderType">{{ textContent }}</button>
 </template>
 
 <script>
@@ -8,7 +8,8 @@
     props:{
       textContent: String,
       colorType: Number,
-      sizeType: Number
+      sizeType: Number,
+      borderType: Number
     }
   }
 </script>
@@ -27,9 +28,23 @@
       background-color: $buttonColor1Hover;
     }
   }
+  .color2{
+    background-color: white;
+    color: grey;
+    &:hover{
+      background-color: $buttonColor1;
+      color: white;
+    }
+  }
   .size1{
     font-size: 1rem;
     padding: 1.5rem 3.5rem;
     font-weight: bold;
+  }
+  .border0{
+    border: 0;
+  }
+  .border1{
+    border: 1px solid lightgrey;
   }
 </style>
