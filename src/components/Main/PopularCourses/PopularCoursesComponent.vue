@@ -19,6 +19,9 @@
 
 <style lang="scss" scoped>
   #popularOnlineCourses{
+    background-image: url('/img/background-pattern.jpg');
+    background-position: bottom center;
+    padding-top: 8rem!important;
     margin: 4rem 0 10rem 0!important;
   }
 </style>
