@@ -353,6 +353,26 @@ export const store = reactive({
             values: [false, false, true]
           }
         ]
+      },
+      brands: {
+        data: [
+          {
+            normal: 'h5-client-5.png',
+            hover: 'h5-client-5-h.png'
+          },
+          {
+            normal: 'h5-client-1.png',
+            hover: 'h5-client-1-h.png'
+          },
+          {
+            normal: 'h5-client-2.png',
+            hover: 'h5-client-2-h.png'
+          },
+          {
+            normal: 'h5-client-1.png',
+            hover: 'h5-client-1-h.png'
+          }
+        ]
       }
     }
   }

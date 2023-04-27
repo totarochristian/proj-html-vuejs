@@ -19,7 +19,7 @@
   import LearningPossibilities from './LearningPossibilitiesComponent.vue';
   import PopularCoursesComponent from './PopularCourses/PopularCoursesComponent.vue';
   import PricingPlansComponent from './PricingPlans/PricingPlansComponent.vue';
-  import BrandsComponent from './BrandsComponent.vue';
+  import BrandsComponent from './BrandsComponent/BrandsComponent.vue';
 
   export default {
     name: 'Main',
