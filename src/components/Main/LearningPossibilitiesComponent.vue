@@ -1,14 +1,14 @@
 <template>
-  <div id="learningPossibilities" class="p-4 d-flex">
+  <div id="learningPossibilities" class="p-4 d-flex justify-content-center flex-wrap">
     <div id="learningSections" class="p-4 d-flex flex-column align-items-start">
-      <span class="w-100 text-capitalize fs-4 p-4" :class="{'active': index == activeIndex}" @click="OpenSection(index)" v-for="(elem, index) in store.siteCreationData.main.learningPossibilities.data">{{ elem.sectiontitle }}</span>
+      <span class="w-100 fw-semibold text-capitalize fs-3 p-4" :class="{'active': index == activeIndex}" @click="OpenSection(index)" v-for="(elem, index) in store.siteCreationData.main.learningPossibilities.data">{{ elem.sectiontitle }}</span>
     </div>
     <div id="learningContent" class="my-4 p-4 d-flex flex-column align-items-start flex-fill gap-4">
       <h1>{{ store.siteCreationData.main.learningPossibilities.data[activeIndex].title }}</h1>
-      <p class="fs-4">{{ store.siteCreationData.main.learningPossibilities.data[activeIndex].description }}</p>
+      <p class="fs-3">{{ store.siteCreationData.main.learningPossibilities.data[activeIndex].description }}</p>
       <div id="learningOptionsContent" class="w-100 d-flex align-items-end">
         <div id="learningOptions" class="flex-fill d-flex flex-column align-items-start">
-          <div class="fs-4 d-flex align-items-center gap-2 py-3" v-for="option in store.siteCreationData.main.learningPossibilities.data[activeIndex].options">
+          <div class="fs-3 d-flex align-items-center gap-3 py-3" v-for="option in store.siteCreationData.main.learningPossibilities.data[activeIndex].options">
             <i class="fa-solid fa-check"></i>
             <span>{{ option }}</span>
           </div>
@@ -42,6 +42,7 @@
   @use '../../assets/styles/partial/variables' as *;
 
   #learningPossibilities{
+    margin: 6rem 0;
     #learningSections{
       min-width: 500px;
       span{
@@ -58,6 +59,9 @@
       border-left: 10px solid $buttonColor1;
     }
     #learningContent{
+      max-width: 1200px;
+      margin-right: 8rem;
+      margin-left: 1rem;
       img{
         width: 180px;
         height: 178px;
