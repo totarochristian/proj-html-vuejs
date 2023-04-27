@@ -84,6 +84,7 @@ export const store = reactive({
         ]
       },
       feedback:{
+        backgroundImage: 'h5-parallax-img-1.png',
         data:[
           {
             image: 'testimonials-standard-6.png',
