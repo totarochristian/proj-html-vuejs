@@ -15,7 +15,7 @@
   import ReachPotentialComponent from './ReachPotentialComponent.vue';
   import FeedbackComponent from './FeedbackComponent.vue';
   import LearningPossibilities from './LearningPossibilitiesComponent.vue';
-  import PopularCoursesComponent from './PopularCoursesComponent.vue';
+  import PopularCoursesComponent from './PopularCourses/PopularCoursesComponent.vue';
 
   export default {
     name: 'Main',
