@@ -296,17 +296,17 @@ export const store = reactive({
             price: 0
           },
           {
-            image: '',
+            image: 'h5-custom-icon-7.png',
             title: 'Standard',
             price: 12
           },
           {
-            image: '',
+            image: 'h5-custom-icon-8.png',
             title: 'Professional',
             price: 59
           },
           {
-            image: '',
+            image: 'h5-custom-icon-9.png',
             title: 'Advanced',
             price: 88
           }
