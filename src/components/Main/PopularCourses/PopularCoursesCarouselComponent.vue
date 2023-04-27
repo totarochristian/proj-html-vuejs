@@ -1,11 +1,13 @@
 <template>
-  <div id="popularCoursesCarousel" class="d-flex justify-content-center align-items-center gap-4 position-relative">
-    <div class="coursesCard d-flex flex-column gap-4" v-for="(card,index) in store.siteCreationData.main.popularCourses.data" :class="{'d-none': card.hide}">
-      <div class="cardHeader">
-        <img :src="'/img/'+card.image" :alt="card.title">
-      </div>
-      <div class="cardContent">
-        {{ index + 1 }}
+  <div id="popularCoursesCarousel" class="d-flex flex-column gap-4">
+    <div class="d-flex justify-content-center align-items-center gap-4">
+      <div class="coursesCard d-flex flex-column gap-4" v-for="(card,index) in store.siteCreationData.main.popularCourses.data" :class="{'d-none': card.hide}">
+        <div class="cardHeader">
+          <img :src="'/img/'+card.image" :alt="card.title">
+        </div>
+        <div class="cardContent">
+          {{ index + 1 }}
+        </div>
       </div>
     </div>
     <div id="carouselButtons" class="w-100 d-flex justify-content-center align-items-center gap-3">
@@ -63,8 +65,6 @@
     }
   }
   #carouselButtons{
-    position: absolute;
-    bottom: 2rem;
     i{
       cursor: pointer;
       color: $buttonColor1;
