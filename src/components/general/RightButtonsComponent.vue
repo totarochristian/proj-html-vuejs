@@ -4,7 +4,7 @@
       <img class="p-2 showShadow" src="/svg/svg-0.svg" alt="Circle">
       <img class="p-2 showShadow" src="/svg/svg-2.svg" alt="Shop">
     </div>
-    <a href="#" id="goUp" class="d-flex flex-column justify-content-center align-items-center">
+    <a href="#" id="goUp" class="d-flex flex-column justify-content-center align-items-center" :class="{ 'showGoUp': scroll>=600 }">
       <i class="fs-4 fa-solid fa-angle-up"></i>
       <span class="fs-5 text-uppercase">top</span>
     </a>
@@ -16,8 +16,20 @@
     name: 'RightButtonsComponent',
     data(){
       return{
-        showGoUp: true
+        showGoUp: true,
+        scroll: null
       }
+    },
+    methods: {
+      handleScroll(e) {
+        this.scroll = window.scrollY || window.scrollTop
+      }
+    },
+    created() {
+      window.addEventListener('scroll', this.handleScroll);
+    },
+    destroyed() {
+      window.removeEventListener('scroll', this.handleScroll);
     }
   }
 </script>
@@ -50,7 +62,8 @@
       color: white;
       text-decoration: none;
       background-color: $buttonColor1;
-      i,span{
+      opacity: 0;
+      &,i,span{
         transition: all 0.2s linear;
       }
       &:hover{
@@ -61,6 +74,9 @@
           opacity: 0;
         }
       }
+    }
+    .showGoUp{
+      opacity: 100%!important;
     }
   }
 </style>
