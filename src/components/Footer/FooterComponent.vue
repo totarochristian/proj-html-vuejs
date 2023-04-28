@@ -16,13 +16,18 @@
         </div>
         <div id="popularCoursesInfo" class="d-flex flex-column align-items-start justify-content-center gap-4">
           <h3>{{ store.siteCreationData.footer.upper.popularCourses.title }}</h3>
-          <div class="d-flex flex-column align-items-start justify-content-center gap-1" v-for="info in store.siteCreationData.footer.upper.popularCourses.data">
-            <a :href="info.titleLink">{{ info.title }}</a>
-            <a :href="info.authorLink">{{ info.author }}</a>
+          <div class="d-flex flex-column align-items-start justify-content-center gap-3">
+            <div class="d-flex flex-column align-items-start justify-content-center gap-1" v-for="info in store.siteCreationData.footer.upper.popularCourses.data">
+              <a :href="info.titleLink">{{ info.title }}</a>
+              <a :href="info.authorLink">{{ info.author }}</a>
+            </div>
           </div>
         </div>
         <div id="supportInfo">
-          
+          <h3>{{ store.siteCreationData.footer.upper.support.title }}</h3>
+          <div class="d-flex flex-column align-items-start justify-content-center gap-3">
+            <a :href="info.link" v-for="info in store.siteCreationData.footer.upper.support.data">{{ info.title }}</a>
+          </div>
         </div>
       </div>
       <div id="flexibleLearnings">
