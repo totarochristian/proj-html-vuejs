@@ -80,6 +80,7 @@
     border: 1px solid lightgrey;
     position: relative;
     transition: all 0.2s linear;
+    cursor: pointer;
     .cardHeader{
       width: 100%;
       max-height: 265px;
