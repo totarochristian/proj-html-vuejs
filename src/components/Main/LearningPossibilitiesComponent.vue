@@ -50,6 +50,7 @@
         border: 1px solid grey;
         border-bottom: 0;
         cursor: pointer;
+        transition: all 0.1s linear;
         &:last-child{
           border-bottom: 1px solid grey;
         }
