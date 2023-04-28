@@ -79,6 +79,7 @@
     max-width: 413px;
     border: 1px solid lightgrey;
     position: relative;
+    transition: all 0.2s linear;
     .cardHeader{
       width: 100%;
       max-height: 265px;
@@ -103,6 +104,10 @@
     }
     &:hover .cardHearth{
       display: block;
+    }
+    &:hover{
+      box-shadow: 0 0 9.8px 0.2px rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
     }
   }
   #popularCoursesCarousel{
