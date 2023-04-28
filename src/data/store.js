@@ -376,7 +376,7 @@ export const store = reactive({
       }
     },
     footer:{
-      data: {
+      upper: {
         general: {
           image: 'footer-logo-1.png',
           description: 'Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to Home',
@@ -435,6 +435,11 @@ export const store = reactive({
           title: 'Flexible Learning',
           image: 'footer-img-1.png'
         }
+      },
+      bottom: {
+        copyright: '© 2017 Qode Interactive, All Rights Reserved',
+        call: 'CALL +44 300 303 0266',
+        follow: 'FOLLOW US'
       }
     }
   }
