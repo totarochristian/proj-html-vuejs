@@ -61,6 +61,7 @@
   @use '../../../assets/styles/partial/variables' as *;
   #pricingTable{
     margin-top: 5rem;
+    margin-bottom: 5rem;
     table{
       background-color: white;
       td,th{

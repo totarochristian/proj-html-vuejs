@@ -23,7 +23,6 @@
 
 <style lang="scss" scoped>
   #brands{
-    padding-top: 8rem!important;
     margin: 4rem 0 10rem 0!important;
     div{
       width: calc(100% / 4 - 2rem);
