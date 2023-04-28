@@ -3,13 +3,13 @@
     <img src="/img/h5-img-2.jpg" alt="Image of the world">
     <div id="reachPotentialContent" class="ps-4">
       <h2>Empowering Children to Reach Their Potential.</h2>
-      <p class="fs-3">Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id eis sed odio sit amet nibh vulputate.</p>
+      <p>Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id eis sed odio sit amet nibh vulputate.</p>
       <div class="d-flex justify-content-between align-items-center gap-4">
-        <div class="results fs-4 fw-bold d-flex flex-column">
+        <div class="results ct-results fw-bold d-flex flex-column">
           <span>168</span>
           <span class="text-capitalize">User stories</span>
         </div>
-        <div class="results fs-4 fw-bold d-flex flex-column">
+        <div class="results ct-results fw-bold d-flex flex-column">
           <span>347</span>
           <span class="text-capitalize">Events</span>
         </div>
@@ -39,9 +39,6 @@
       margin: 2rem;
       .results{
         color: $buttonColor1;
-        span:first-child{
-          font-size: 3rem;
-        }
       }
     }
   }

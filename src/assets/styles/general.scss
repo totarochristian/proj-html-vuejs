@@ -8,6 +8,20 @@ $fa-font-path: '../webfonts';
 
 @import 'bootstrap/scss/bootstrap';
 
-h2{
-  font-size: $h2Sizes;
+h1{ font-size: $h1SizesLarge; }
+h2,.ct-h2{ font-size: $h2SizesLarge; }
+p,.ct-p{ font-size: $pSizesLarge; }
+.ct-results{ font-size: $resultsSizeLarge; }
+
+@media screen and (max-width: 1300px){
+  h1{ font-size: $h1SizesMedium; }
+  h2,.ct-h2{ font-size: $h2SizesMedium; }
+  p,.ct-p{ font-size: $pSizesMedium; }
+  .ct-results{ font-size: $resultsSizeMedium; }
+}
+@media screen and (max-width: 700px){
+  h1{ font-size: $h1SizesSmall; }
+  h2,.ct-h2{ font-size: $h2SizesSmall; }
+  p,.ct-p{ font-size: $pSizesSmall; }
+  .ct-results{ font-size: $resultsSizeSmall; }
 }

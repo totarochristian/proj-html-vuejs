@@ -1,7 +1,7 @@
 <template>
   <footer class="py-4 bg-dark text-white d-flex flex-column gap-4">
     <div id="upperFooter" class="p-4 d-flex justify-content-between align-items-start gap-4">
-      <div class="p-4 d-flex justify-content-between align-items-center gap-4">
+      <div class="p-4 d-flex justify-content-between align-items-center gap-4 flex-wrap">
         <div id="generalInfo" class="col-3 d-flex flex-column align-items-start justify-content-center gap-4">
           <img :src="'/img/' + store.siteCreationData.footer.upper.general.image" alt="Logo">
           <p class="fs-4">{{ store.siteCreationData.footer.upper.general.description }}</p>
@@ -35,13 +35,13 @@
         <img :src="'/img/' + store.siteCreationData.footer.upper.flexibleLearning.image" alt="World image">
       </div>
     </div>
-    <div id="bottomFooter" class="p-4 d-flex justify-content-between align-items-center gap-4">
+    <div id="bottomFooter" class="p-4 d-flex justify-content-between align-items-center gap-4 flex-wrap">
       <div class="p-4">
         <span class="fs-4">{{ store.siteCreationData.footer.bottom.copyright }}</span>
       </div>
-      <div class="p-4 d-flex justify-content-between align-items-center gap-4">
+      <div class="p-4 d-flex justify-content-between align-items-center gap-4 flex-wrap">
         <span class="fs-4 text-uppercase">{{ store.siteCreationData.footer.bottom.call }}</span>
-        <div class="p-4 d-flex justify-content-between align-items-center gap-4">
+        <div class="d-flex justify-content-between align-items-center gap-4">
           <span class="fs-4">{{ store.siteCreationData.footer.bottom.follow }}</span>
           <i class="fs-4 fa-brands fa-twitter"></i>
           <i class="fs-4 fa-brands fa-instagram"></i>
@@ -100,10 +100,16 @@
       }
       #flexibleLearnings{
         img{
-          width: 305px;
+          max-width: 305px;
           height: auto;
         }
       }
     }
+    #generalInfo,#popularCoursesInfo,#supportInfo{
+      min-width: 250px;
+    }
+  }
+  @media screen and (max-width: 1300px){
+    #upperFooter{ flex-wrap: wrap; }
   }
 </style>

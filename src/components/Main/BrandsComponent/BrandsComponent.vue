@@ -27,6 +27,7 @@
     margin: 4rem 0 10rem 0!important;
     div{
       width: calc(100% / 4 - 2rem);
+      min-width: 200px;
     }
   }
 </style>

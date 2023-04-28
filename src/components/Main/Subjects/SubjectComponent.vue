@@ -1,7 +1,7 @@
 <template>
   <div class="subject p-4 d-flex flex-wrap justify-content-center align-items-center">
     <img :src="'/img/'+data.image" :alt="data.name">
-    <p class="fs-3 fw-bold">{{ data.name }}</p>
+    <p class="fw-bold">{{ data.name }}</p>
   </div>
 </template>
 
@@ -17,8 +17,7 @@
 <style lang="scss" scoped>
   @use '../../../assets/styles/partial/variables' as *;
   .subject{
-    min-width: 160px;
-    min-height: 200px;
+    min-width: 200px;
     background-color: $subjectsBackground;
     cursor: pointer;
     img{

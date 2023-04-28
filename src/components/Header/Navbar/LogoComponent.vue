@@ -17,4 +17,20 @@
       width: auto;
     }
   }
+  @media screen and (max-width: 1000px){
+    #logo{
+      img{
+        height: 8vh!important;
+        width: auto;
+      }
+    }
+  }
+  @media screen and (max-width: 400px){
+    #logo{
+      img{
+        height: 6vh!important;
+        width: auto;
+      }
+    }
+  }
 </style>

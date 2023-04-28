@@ -3,7 +3,7 @@
     <img :src="'/img/'+store.siteCreationData.header.hero.data[activeIndex].backgroundImage" :alt="store.siteCreationData.header.hero.data[activeIndex].title">
     <div class="px-4 w-100 h-100 position-relative d-flex flex-column justify-content-center align-items-center text-center gap-4">
       <h1>{{ store.siteCreationData.header.hero.data[activeIndex].title }}</h1>
-      <p class="fs-3">{{ store.siteCreationData.header.hero.data[activeIndex].description }}</p>
+      <p>{{ store.siteCreationData.header.hero.data[activeIndex].description }}</p>
       <ButtonComponent :textContent="store.siteCreationData.header.hero.data[activeIndex].action" :colorType="1" :sizeType="1" />
     </div>
     <div id="carouselButtons" class="w-100 d-flex justify-content-center align-items-center gap-3">
@@ -61,9 +61,6 @@
     }
     div{
       z-index: 200;
-      h1{
-        font-size: 4rem;
-      }
       p{
         padding-left: 3rem;
         padding-right: 3rem;
@@ -84,9 +81,6 @@
   @media screen and (max-width: 767px){
     #heroCarousel{
       height: 100vh;
-      h1{
-        font-size: 3rem!important;
-      }
       p{
         padding: 0 2rem;
       }

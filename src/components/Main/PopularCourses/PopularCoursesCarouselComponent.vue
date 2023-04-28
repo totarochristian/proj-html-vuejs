@@ -13,7 +13,7 @@
             </div>
             <span class="mt-2 fs-6 px-3 badge rounded-pill text-uppercase" :class="card.price>0 ? 'text-bg-info' : 'text-bg-warning'">{{ card.price > 0 ? '$' + card.price: 'free' }}</span>
           </div>
-          <p class="fs-4">{{ card.description }}</p>
+          <p>{{ card.description }}</p>
           <div class="d-flex gap-3">
             <div class="d-flex gap-2 align-items-center colorGrey">
               <i class="fa-solid fa-user"></i>
@@ -124,5 +124,8 @@
         opacity: 100%;
       }
     }
+  }
+  @media screen and (max-width: 1000px){
+    #popularCoursesCarousel>div:first-child{ flex-wrap: wrap; }
   }
 </style>

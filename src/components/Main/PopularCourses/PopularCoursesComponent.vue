@@ -1,7 +1,7 @@
 <template>
   <div id="popularOnlineCourses" class="m-4 p-4 d-flex justify-content-center align-items-center flex-column gap-4">
     <h2 class="text-capitalize">Popular online courses</h2>
-    <p class="fs-3 col-xl-6 text-center">Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit</p>
+    <p class="col-xl-6 text-center">Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit</p>
     <PopularCoursesCarouselComponent />
   </div>
 </template>
