@@ -437,7 +437,7 @@ export const store = reactive({
         }
       },
       bottom: {
-        copyright: '© 2017 Qode Interactive, All Rights Reserved',
+        copyright: 'Copyrights 2017 ©Mikado Themes',
         call: 'CALL +44 300 303 0266',
         follow: 'FOLLOW US'
       }

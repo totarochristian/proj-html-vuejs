@@ -35,9 +35,9 @@
         <img :src="'/img/' + store.siteCreationData.footer.upper.flexibleLearning.image" alt="World image">
       </div>
     </div>
-    <div id="bottomFooter" class="d-flex justify-content-between align-items-center gap-4">
-      <div>
-        copyright
+    <div id="bottomFooter" class="p-4 d-flex justify-content-between align-items-center gap-4">
+      <div class="p-4">
+        <span class="fs-4">{{ store.siteCreationData.footer.bottom.copyright }}</span>
       </div>
       <div>
         follow
