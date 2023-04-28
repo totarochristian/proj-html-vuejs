@@ -73,9 +73,11 @@
     #popularCoursesInfo a:last-child:hover{
       color: grey;
     }
-    #generalInfo>div:hover i{
-      color: $buttonColor1;
+    #generalInfo>div{
       cursor: pointer;
+      &:hover i{
+        color: $buttonColor1;
+      }
     }
     #upperFooter{
       #generalInfo{
