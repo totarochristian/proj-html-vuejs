@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div id="supportInfo">
+        <div id="supportInfo" class="d-flex flex-column align-items-start justify-content-center gap-4">
           <h3>{{ store.siteCreationData.footer.upper.support.title }}</h3>
           <div class="d-flex flex-column align-items-start justify-content-center gap-3">
             <a :href="info.link" v-for="info in store.siteCreationData.footer.upper.support.data">{{ info.title }}</a>
