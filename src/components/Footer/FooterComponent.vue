@@ -39,8 +39,14 @@
       <div class="p-4">
         <span class="fs-4">{{ store.siteCreationData.footer.bottom.copyright }}</span>
       </div>
-      <div>
-        follow
+      <div class="p-4 d-flex justify-content-between align-items-center gap-4">
+        <span class="fs-4 text-uppercase">{{ store.siteCreationData.footer.bottom.call }}</span>
+        <div class="p-4 d-flex justify-content-between align-items-center gap-4">
+          <span class="fs-4">{{ store.siteCreationData.footer.bottom.follow }}</span>
+          <i class="fs-4 fa-brands fa-twitter"></i>
+          <i class="fs-4 fa-brands fa-instagram"></i>
+          <i class="fs-4 fa-brands fa-facebook"></i>
+        </div>
       </div>
     </div>
   </footer>
@@ -76,6 +82,12 @@
     #generalInfo>div{
       cursor: pointer;
       &:hover i{
+        color: $buttonColor1;
+      }
+    }
+    #bottomFooter>div>div:last-child{
+      i:hover{
+        cursor: pointer;
         color: $buttonColor1;
       }
     }
