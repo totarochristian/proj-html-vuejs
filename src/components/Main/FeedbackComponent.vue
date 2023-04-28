@@ -3,7 +3,7 @@
     <img id="backgroundImage" :src="'/img/'+store.siteCreationData.main.feedback.backgroundImage" alt="World image">
     <div class="px-4 w-100 h-100 position-relative d-flex flex-column justify-content-center align-items-center text-center gap-4">
       <img :src="'/img/'+store.siteCreationData.main.feedback.data[activeIndex].image" :alt="store.siteCreationData.main.feedback.data[activeIndex].surname + ' ' + store.siteCreationData.main.feedback.data[activeIndex].name">
-      <p>{{ store.siteCreationData.main.feedback.data[activeIndex].feedback }}</p>
+      <p>"{{ store.siteCreationData.main.feedback.data[activeIndex].feedback }}"</p>
       <div class="d-flex flex-column justify-content-center align-items-center gap-3">
         <span class="fs-2 fw-bold">{{ store.siteCreationData.main.feedback.data[activeIndex].name + ' ' + store.siteCreationData.main.feedback.data[activeIndex].surname}}</span>
         <span class="fs-5 fw-semibold text-uppercase">{{ store.siteCreationData.main.feedback.data[activeIndex].role }}</span>
