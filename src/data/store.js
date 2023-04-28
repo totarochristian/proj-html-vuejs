@@ -374,6 +374,68 @@ export const store = reactive({
           }
         ]
       }
+    },
+    footer:{
+      data: {
+        general: {
+          image: 'footer-logo-1.png',
+          description: 'Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to Home',
+          phone: '1-677-124-44227',
+          hours: 'Mon-Sat 8:00-18:00'
+        },
+        popularCourses: {
+          title: 'Popular Courses',
+          data: [
+            {
+              title: 'business english',
+              titleLink: '#',
+              author: 'Preston Marshall',
+              authorLink: '#'
+            },
+            {
+              title: 'Social computing',
+              titleLink: '#',
+              author: 'David Sanders',
+              authorLink: '#'
+            },
+            {
+              title: 'Learn spanish',
+              titleLink: '#',
+              author: 'Jennie King',
+              authorLink: '#'
+            }
+          ]
+        },
+        support:{
+          title: 'Support',
+          data: [
+            {
+              title: 'User dashboard',
+              link: '#'
+            },
+            {
+              title: 'Contact Us',
+              link: '#'
+            },
+            {
+              title: 'FAQ',
+              link: '#'
+            },
+            {
+              title: 'Course Offer',
+              link: '#'
+            },
+            {
+              title: 'Events',
+              link: '#'
+            }
+          ]
+        },
+        flexibleLearning:{
+          title: 'Flexible Learning',
+          image: 'footer-img-1.png'
+        }
+      }
     }
   }
 });
